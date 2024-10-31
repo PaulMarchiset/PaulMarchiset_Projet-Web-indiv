@@ -1,0 +1,24 @@
+/*normalize*/
+@import "vendors/normalize.css";
+
+/* utils */
+@import "utils/variables.css";
+
+/*base*/
+@import "base/main.css";
+@import "base/media.css";
+
+/*layout*/
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "layout/section.css";
+
+/*components*/
+@import "components/cards.css";
+@import "components/buttons.css";
+
+/*font*/
+@font-face {
+    font-family: 'lexend';
+    src: url('../../assets/fonts/lexend_regular.woff2') format('woff2');
+  };

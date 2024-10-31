@@ -1,0 +1,53 @@
+footer {
+    background-color: var(--UGEBlue);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 2rem;
+}
+
+footer > div > h5 {
+    width: 30%;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
+
+footer a, footer li{
+    color: white;
+}
+
+footer ul {
+    padding: 0 0 0 1rem;
+}
+
+footer h5 {
+    font-size: 1rem;
+    color: white;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 1024px) {
+    footer {
+        padding: 4rem 15%;
+
+    }
+    footer > div > div {
+        width : 65%;
+    }
+    footer > div > h5 {
+        width: 35%;
+    }
+}

@@ -1,0 +1,35 @@
+.container-button_web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button_web {
+  width: 60%;
+  padding: 1rem;
+  border-radius: 0.3125rem;
+  border: 3px solid var(--UGEBlue, #2f2a85);
+  background: #eee;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color : var(--UGEBlue);
+  line-height: normal;
+}
+
+.button_web:hover {
+  background: var(--UGEBlue, #2f2a85);
+  color: white;
+}
+
+@media (min-width: 1024px) {
+    .container-button_web {
+        width:30%;
+        gap:4rem;
+    }
+    .button_web {
+        font-size:1.5rem;
+    }
+}

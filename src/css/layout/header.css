@@ -1,0 +1,24 @@
+header {
+  background-color: var(--UGEBlue);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  padding: 1.75rem;
+  font-size: 1.25rem;
+  position: sticky;
+  top: 0;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+    gap: 2rem;
+}
