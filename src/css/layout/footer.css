@@ -24,6 +24,7 @@ footer > p {
 
 footer a, footer li{
     color: white;
+    font-weight: 300;
 }
 
 footer ul {
@@ -33,13 +34,14 @@ footer ul {
 footer h5 {
     font-size: 1rem;
     color: white;
+    font-weight: 700;
 }
 
 footer p {
-    font-size: 0.8rem;
+    font-size: 0.875rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1240px) {
     footer {
         padding: 4rem 15%;
 

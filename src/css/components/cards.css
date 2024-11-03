@@ -21,7 +21,7 @@
 
 .card_campus h3 {
     font-size: 1.125rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
 
 .card_web h3 {
     font-size: 1.125rem;
-    font-weight: 700;
+    font-weight: 500;
     text-align: left;
 }
 
@@ -55,7 +55,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1240px) {
     .container-card_campus {
         flex-direction: row;
         gap: 6rem;
